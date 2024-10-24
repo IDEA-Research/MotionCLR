@@ -1,7 +1,8 @@
 # MotionCLR: Motion Generation and Training-free Editing via Understanding Attention Mechanisms
 
-[Ling-Hao Chen](https://lhchen.top/)$^*$, [Wenxun Dai](https://github.com/Dai-Wenxun), [Xuan Ju](https://juxuan27.github.io/), [Shunlin Lu](https://shunlinlu.github.io), [Lei Zhang](https://leizhang.org)†
+[Ling-Hao Chen](https://lhchen.top/)$^{* 1, 2}$, [Wenxun Dai](https://github.com/Dai-Wenxun)$^1$, [Xuan Ju](https://juxuan27.github.io/)$^3$, [Shunlin Lu](https://shunlinlu.github.io)$^4$, [Lei Zhang](https://leizhang.org)†$^2$
 
+$^1$ THU, $^2$ IDEA, $^3$ CUHK, $^4$ CUHK-SZ
 $^*$ Internship at IDEA Research. †Correspondence.
 
 
@@ -21,6 +22,10 @@ $^*$ Internship at IDEA Research. †Correspondence.
   <a href='https://github.com/IDEA-Research/MotionCLR'>
   <img src='https://img.shields.io/badge/gradio-demo-red.svg'>
   </a> 
+  <a href='https://youtu.be/CQffPl7VI_c'>
+  <img src='https://img.shields.io/badge/YouTube-Video-EA3323?style=flat&logo=youtube&logoColor=EA3323'></a>
+  <a href='https://www.bilibili.com/video/xxxxx/'>
+    <img src='https://img.shields.io/badge/Bilibili-Video-4EABE6?style=flat&logo=Bilibili&logoColor=4EABE6'></a>
   <a href='LICENSE'>
   <img src='https://img.shields.io/badge/License-IDEA-blue.svg'>
   </a> 
@@ -32,12 +37,12 @@ $^*$ Internship at IDEA Research. †Correspondence.
 ## 🤩 Abstract
 > This research delves into analyzing the attention mechanism of diffusion models in human motion generation. Previous motion diffusion models lack explicit modeling of the word-level text-motion correspondence and explainability. Regarding these issues, we propose an attention-based motion diffusion model, namely MotionCLR, with CLeaR modeling of attention mechanisms. Based on the proposed model, we thoroughly analyze the formulation of the attention mechanism theoretically and empirically. Importantly, we highlight that the self-attention mechanism works to find the fine-grained word-sequence correspondence and activate the corresponding timesteps in the motion sequence. Besides, the cross-attention mechanism aims to measure the sequential similarity between frames and order the sequentiality of motion features. Motivated by these key insights, we propose versatile simple yet effective motion editing methods via manipulating attention maps, such as motion (de)-emphasizing, in-place motion replacement, and example-based motion generation *etc.*. For further verification of the explainability of the attention mechanism, we additionally explore the potential of action-counting and grounded motion generation ability via attention maps.
 
-[] 📌 Due to some issues with latest gradio 5, MotionCLR v1-preview for motion editing will be supported next week.
+[ ] 📌 Due to some issues with latest gradio 5, MotionCLR v1-preview for motion editing will be supported next week.
 
 
 ## 📢 News
 
-+ **[2024] Project, code, and paper are released.**
++ **[2024-10-25] Project, code, and paper are released.**
 
 
 ## ☕️ Preparation
@@ -303,7 +308,7 @@ We convey our thanks to all of them.
 We would like to thank the authors of the following repositories for their excellent work: 
 [HumanML3D](https://github.com/EricGuo5513/HumanML3D),
 [UniMoCap](https://github.com/LinghaoChan/UniMoCap),
-[joints2smpl](https://github.com/wangsen1312/joints2smpl)，
+[joints2smpl](https://github.com/wangsen1312/joints2smpl),
 [HumanTOMATO](https://github.com/IDEA-Research/HumanTOMATO),
 [MotionLCM](https://github.com/Dai-Wenxun/MotionLCM),
 [StableMoFusion](https://github.com/h-y1heng/StableMoFusion).
