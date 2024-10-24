@@ -1,8 +1,9 @@
 # MotionCLR: Motion Generation and Training-free Editing via Understanding Attention Mechanisms
 
-[Ling-Hao Chen](https://lhchen.top/)$^{* 1, 2}$, [Wenxun Dai](https://github.com/Dai-Wenxun)$^1$, [Xuan Ju](https://juxuan27.github.io/)$^3$, [Shunlin Lu](https://shunlinlu.github.io)$^4$, [Lei Zhang](https://leizhang.org)†$^2$
+[Ling-Hao Chen](https://lhchen.top/)$^{* 1, 2}$, [Wenxun Dai](https://github.com/Dai-Wenxun)$^1$, [Xuan Ju](https://juxuan27.github.io/)$^3$, [Shunlin Lu](https://shunlinlu.github.io)$^4$, [Lei Zhang](https://leizhang.org)† $^2$
 
 $^1$ THU, $^2$ IDEA, $^3$ CUHK, $^4$ CUHK-SZ
+
 $^*$ Internship at IDEA Research. †Correspondence.
 
 
