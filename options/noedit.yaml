@@ -1,0 +1,21 @@
+# noedit.yaml
+reweighting_attn: 
+  use: False
+
+erasing_motion:
+  use: False
+
+manipulation:
+  use: False
+
+time_shift:
+  use: False
+
+example_based:
+  use: False
+
+style_tranfer:
+  use: False
+
+grounded_generation:
+  use: False

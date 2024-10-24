@@ -1,0 +1,46 @@
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.npy
+
+# Ignore build artifacts
+build/
+dist/
+node_modules/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+**/*.pyc
+*.pyc
+*.out
+*.sh
+*.png
+*.pth
+*.pt
+*.ipynb
+
+test.py
+
+data/
+vis-*/
+checkpoints/
+tmp/
+*.tar.gz

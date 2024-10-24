@@ -1,0 +1,42 @@
+# edit.yaml
+reweighting_attn: 
+  use: False
+  reweighting_attn_weight: 0.0          # the weight of reweighting attention for motion emphasizing and de-emphasizing
+  idx: -1                                # the index of the word to be emphasized or de-emphasized (0 ~ 10)
+
+erasing_motion:
+  use: False
+  erasing_motion_weight: 0.1            # the weight of motion erasing
+  time_start: 0.5                       # the start time of motion erasing (0.0 ~ 1.0), ratio of the total time
+  time_end: 1.0                         # the end time of motion erasing (0.0 ~ 1.0), ratio of the total time
+  idx: -1
+
+manipulation:                           # motion manipulation means in-place motion replacement
+  use: False
+  manipulation_steps_start: 0           # the start step of motion manipulation， 0 ~ 10
+  manipulation_steps_end: 3             # the end step of motion manipulation， 0 ~ 10
+  manipulation_steps_end_crossattn: 3   # the end step of cross-attention for motion manipulation， 0 ~ 10
+  word_idx: 3                           # the index of the word to be manipulated
+
+time_shift:
+  use: False
+  time_shift_steps_start: 0             # the start step of time shifting， 0 ~ 10
+  time_shift_steps_end: 4               # the end step of time shifting， 0 ~ 10
+  time_shift_ratio: 0.5                 # the ratio of time shifting, 0.0 ~ 1.0
+
+example_based:
+  use: False
+  chunk_size: 20                        # the size of the chunk for example-based generation
+  example_based_steps_end: 6            # the end step of example-based generation， 0 ~ 10
+  temp_seed: 200                        # the inintial seed for example-based generation 
+  temp_seed_bar: 15                     # the the seed bar for example-based generation
+
+style_tranfer:
+  use: False
+  style_transfer_steps_start: 0         # the start step of style transfer， 0 ~ 10
+  style_transfer_steps_end: 5           # the end step of style transfer， 0 ~ 10
+
+grounded_generation:
+  use: False
+
+index: 3
