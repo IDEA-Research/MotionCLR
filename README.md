@@ -9,9 +9,9 @@ $^*$ Internship at IDEA Research. †Correspondence.
 
 <p align="center">
   <a href='https://arxiv.org/abs/2405.xxxxx'>
-  <img src='https://img.shields.io/badge/Arxiv-2405.xxxxx-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
+  <img src='https://img.shields.io/badge/Arxiv-2410.18977-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
   </a> 
-  <a href='https://arxiv.org/pdf/2405.xxxxx.pdf'>
+  <a href='https://arxiv.org/pdf/2410.18977.pdf'>
   <img src='https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow'>
   </a> 
   <a href='https://lhchen.top/MotionCLR'>
@@ -318,7 +318,7 @@ If you find this work useful, please consider citing our paper:
 @article{motionclr,
   title={MotionCLR: Motion Generation and Training-free Editing via Understanding Attention Mechanisms},
   author={Chen, Ling-Hao and Dai, Wenxun and Ju, Xuan and Lu, Shunlin and Zhang, Lei},
-  journal={arxiv:xxxx.xxxxx},
+  journal={arxiv:2410.18977},
   year={2024}
 }
 ```
