@@ -8,7 +8,7 @@ $^*$ Internship at IDEA Research. †Correspondence.
 
 
 <p align="center">
-  <a href='https://arxiv.org/abs/2405.xxxxx'>
+  <a href='https://arxiv.org/abs/2410.18977'>
   <img src='https://img.shields.io/badge/Arxiv-2410.18977-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
   </a> 
   <a href='https://arxiv.org/pdf/2410.18977.pdf'>
@@ -25,7 +25,7 @@ $^*$ Internship at IDEA Research. †Correspondence.
   </a> 
   <a href='https://youtu.be/CQffPl7VI_c'>
   <img src='https://img.shields.io/badge/YouTube-Video-EA3323?style=flat&logo=youtube&logoColor=EA3323'></a>
-  <a href='https://www.bilibili.com/video/xxxxx/'>
+  <a href='https://www.bilibili.com/video/BV1oQymYUEDX/'>
     <img src='https://img.shields.io/badge/Bilibili-Video-4EABE6?style=flat&logo=Bilibili&logoColor=4EABE6'></a>
   <a href='LICENSE'>
   <img src='https://img.shields.io/badge/License-IDEA-blue.svg'>
