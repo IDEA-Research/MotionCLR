@@ -289,11 +289,45 @@ Please replace `$EXP_DIR` with the experiment directory name.
 
 
 
-
-
 ## 🔧 Downstream Editing Applications
 
-Due to some issues with latest gradio 5, MotionCLR v1-preview huggingface demo for motion editing will be supported next week.
+
+<details>
+<summary><b>Deploy the demo locally </b></summary>
+
+Our project is supported by the latest Gradio 5, which provides a user-friendly interface for motion editing. The demo is available at [HuggingFace](https://huggingface.co/spaces/EvanTHU/MotionCLR). If you want to run the demo locally, please refer to the following instructions:
+
+```bash
+pip install gradio --upgrade
+```
+
+Launch the demo:
+```python
+python app.py
+```
+</details>
+
+
+
+<details>
+<summary><b>Interaction with commands</b></summary>
+
+You can also use generate or edit the motion via command line. The command is the same as the generation command: 
+
+```bash
+    python -m scripts.generate --input_text ./assets/prompts-replace.txt \
+    --motion_length 8 \
+    --self_attention \
+    --no_eff \
+    --edit_mode \
+    --opt_path ./checkpoints/t2m/$EXP_DIR/opt.txt
+```
+
+Besides, you also need to edit the configuration in `./options/edit.yaml` to specify the editing mode. The detailed clarification of the configuration can be found in the comment of the configuration file.
+</details>
+
+
+
 
 
 
