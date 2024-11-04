@@ -39,4 +39,4 @@ style_tranfer:
 grounded_generation:
   use: False
 
-indexnum: 3
+indexnum: 3                             # the number of words that will be recorded. 
