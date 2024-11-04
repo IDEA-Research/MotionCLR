@@ -20,6 +20,8 @@ $^*$ Internship at IDEA Research. †Correspondence.
     <img src='https://img.shields.io/badge/Blog-post-4EABE6?style=flat&logoColor=4EABE6'></a>
   <a href='https://github.com/IDEA-Research/MotionCLR'>
   <img src='https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github&logoColor=white'></a> 
+  <a href='https://huggingface.co/spaces/EvanTHU/MotionCLR'>
+  <img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow'></a>
   <a href='https://github.com/IDEA-Research/MotionCLR'>
   <img src='https://img.shields.io/badge/gradio-demo-red.svg'>
   </a> 
