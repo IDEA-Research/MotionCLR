@@ -111,7 +111,7 @@ def plot_3d_motion(save_path, kinematic_tree, joints, title, figsize=(10, 10), f
     ani = FuncAnimation(fig, update, frames=frame_number, interval=1000 / fps, repeat=False)
 
     from matplotlib import rcParams
-    rcParams['animation.ffmpeg_path'] = '/home/chenlinghao/software/miniconda3/envs/py10/bin/ffmpeg' 
+    
     writer = FFMpegFileWriter(fps=fps)
     ani.save(save_path, writer=writer)
     plt.close()
