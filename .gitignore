@@ -31,7 +31,6 @@ Thumbs.db
 **/*.pyc
 *.pyc
 *.out
-*.sh
 *.png
 *.pth
 *.pt
